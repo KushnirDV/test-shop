@@ -1,0 +1,52 @@
+.cart-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.cart-list {
+  flex-grow: 1;
+  max-width: 500px;
+  padding: 10px 20px;
+  min-width: 250px;
+  margin-bottom: 100px;
+  position: relative;
+}
+.cart-list img {
+  object-fit: scale-down;
+}
+.cart-list .MuiListItem-root {
+  padding-top: 9px;
+  padding-bottom: 8px;
+  flex-wrap: wrap;
+}
+.cart-form {
+  padding: 20px;
+  min-width: 219px;
+  margin-bottom: 30px;
+}
+.cart-form form {
+  display: flex;
+  flex-direction: column;
+  height: 338px;
+  justify-content: space-between;
+  align-items: center;
+}
+.tile-border {
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+.vertical-devider {
+  width: 50px;
+}
+.wd100 {
+  width: 100%;
+}
+
+.total-summ {
+  position: absolute;
+  bottom: -60px;
+  left: -1px;
+  text-decoration: underline;
+  text-transform: uppercase;
+}

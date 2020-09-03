@@ -1,0 +1,20 @@
+.list-count.MuiListItemSecondaryAction-root {
+  top: 50%;
+  right: 16px;
+  position: unset;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  flex-shrink: 0;
+}
+.list-count .MuiFab-root {
+  border-radius: 0;
+  width: 36px;
+  height: 36px;
+}
+.list-count .count-number {
+  font-size: 18px;
+  margin: 0 18px;
+  font-weight: bold;
+}

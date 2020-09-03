@@ -1,0 +1,27 @@
+{
+  "name": "lamp-shop",
+  "version": "1.0.0",
+  "description": "Backend part for Lamp-shop fullstack app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "private": true,
+  "keywords": [
+    "node.js",
+    "rest",
+    "API",
+    "Expres",
+    "JS"
+  ],
+  "author": "Denis Kushnir",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuid": "^8.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
